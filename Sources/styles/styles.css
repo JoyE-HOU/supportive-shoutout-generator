@@ -1,0 +1,23 @@
+.welcome-background {
+    /* background: linear-gradient(322deg, #ffdaeb 27.79%, #98dffe 108.92%); */
+    background: white;
+    height:max-content;
+  }
+  
+  #greeting {
+    text-align: center;
+  }
+  
+  .to-do-list {
+    text-align: center;
+    height: 600px;
+  }
+  
+  .check-mark {
+    background-color: yellow;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
