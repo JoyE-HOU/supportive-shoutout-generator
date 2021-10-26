@@ -11,7 +11,8 @@
         <!-- bootstrap below-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <!-- css files below -->
-        <link rel="stylesheet" href="./source/styles/styles.css" />
+        <link rel="stylesheet" href="./sources/styles/styles.css" />
+        <link rel="stylesheet" href="./sources/styles/core.css" />
         <title>Productive Positvity</title>
     </head>
     <body>
@@ -53,12 +54,13 @@
                       <div class="card-body">
                         <h5 class="card-title">Special title treatment</h5>
                         <p class="card-text">With supporting text below.</p>
-                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                      <div class="check-mark">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
-                          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                          <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
-                        </svg>
+                        <div class="check-mark">
+                          <!-- Button starts off as 'Mark as Complete' and then transform into a checkmark -->
+                          <a href="#" id="mark-complete-btn" class="btn btn-primary">Mark as Complete</a>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                          </svg>
                       </div>
                       </div>
                   </div>
@@ -67,6 +69,6 @@
               </div>
         </main>
         <footer></footer>
-        <script src="./source/src/index.js"></script>
+        <script src="./sources/src/index.js"></script>
     </body>
 </html>

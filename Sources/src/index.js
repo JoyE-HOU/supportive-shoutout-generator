@@ -1,7 +1,27 @@
 console.log("hello")
 
-let element = document.getElementsByName('main');
+// Individual Task Cards
+function markedAsComplete() {
+
+  let markedCompleteBtn = document.getElementById('mark-complete-btn')
+
+  markedCompleteBtn.addEventListener('click', function() {
+    alert("success");
+  })
+
+}
+
+markedAsComplete()
+  
+  let element = document.getElementsByName('main');
 let btn = document.getElementById('btn-transition')
+
+
+function myFunction() {
+  alert ("Hello World!");
+}
+
+document.getElementsByClassName('complete').addEventListener('click', myfunction());
 
 // function smoothScroll() {
   btn.addEventListener('click', function() {
@@ -22,14 +42,15 @@ function validateForm() {
         return true;
     }
   }
-  //Create the element using the createElement method.
-let myDiv = document.createElement("div");
+//   //Create the element using the createElement method.
+// let myDiv = document.createElement("div");
 
-//Set its unique ID.
-myDiv.id = 'div_id';
+// //Set its unique ID.
+// myDiv.id = 'div_id';
 
-//Add your content to the DIV
-myDiv.innerHTML = x;
+// //Add your content to the DIV
+// myDiv.innerHTML = x;
 
-//Finally, append the element to the HTML body
-document.body.appendChild(myDiv);
+// //Finally, append the element to the HTML body
+// document.body.appendChild(myDiv);
+
