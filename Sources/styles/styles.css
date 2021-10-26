@@ -13,8 +13,13 @@
     height: 600px;
   }
   
-  .check-mark {
-    background-color: yellow;
+  .mark-complete-btn {
+    visibility: visible;
+  }
+
+  .bi-check-circle {
+    /* background-color: yellow; */
+    visibility: hidden;
   }
   
   .container {
