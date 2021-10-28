@@ -22,7 +22,10 @@
     visibility: hidden;
   }
   
+  /* css for flexbox. check out link for more info: https://css-tricks.com/snippets/css/a-guide-to-flexbox/#background */
   .container {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    /* justify-content: center; */
   }
