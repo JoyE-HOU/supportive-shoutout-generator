@@ -16,7 +16,9 @@
         <title>Productive Positvity</title>
     </head>
     <body>
-        <header id="greeting">
+      <!-- smooth scrolling. check out link for more info: https://webdesign.tutsplus.com/tutorials/smooth-scrolling-vanilla-javascript--cms-35165-->
+      <div class="container">
+        <header id="greeting" class="page-header">
             <h1>Welcome to Productive Positvity</h1>
             <h3>This app not only allows to create a to-do list but will give positive affirmations as you complete them.</h3>
             <button id="btn-transition">Click here!</button>
@@ -24,7 +26,7 @@
 
         <nav></nav>
 
-        <main class="welcome-background to-do-list">
+        <section class="welcome-background to-do-list">
             <h1>To do List</h1>
 
             <form name="myForm" onsubmit="return validateForm()" method="post">
@@ -68,8 +70,9 @@
                 </div>
               </div>
               </div>
-        </main>
+            </section>
         <footer></footer>
+      </div>
         <script src="./sources/src/index.js"></script>
     </body>
 </html>
